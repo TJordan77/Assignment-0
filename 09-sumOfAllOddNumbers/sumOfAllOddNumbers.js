@@ -1,5 +1,5 @@
 function sumOfAllOddNumbers(nums) {
-  // Insert code here;
+  return nums.filter(num => num % 2 !== 0).length;
 }
 
 // Do not edit this line;
