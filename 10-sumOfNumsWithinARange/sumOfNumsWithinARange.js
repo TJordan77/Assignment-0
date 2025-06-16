@@ -1,5 +1,5 @@
 function sumOfNumsWithinARange(nums, start, end) {
-  // Insert code here;
+  return nums.filter(num => num >= start && num <= end).length;
 }
 
 // Do not edit this line;
