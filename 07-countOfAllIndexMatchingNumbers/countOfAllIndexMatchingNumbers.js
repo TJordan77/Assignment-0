@@ -1,5 +1,5 @@
 function countOfAllIndexMatchingNumbers(nums) {
-  // Insert code here;
+  return nums.filter((num, index) => num === index).length;
 }
 
 // Do not edit this line;
